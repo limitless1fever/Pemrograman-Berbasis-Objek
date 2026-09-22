@@ -156,7 +156,7 @@ Berikut skenario yang disarankan untuk menguji fungsionalitas program:
 
 ```
 ========================================
-Battle Start!
+Battle Start
 Nezha VS MengYa
 ========================================
 
@@ -169,8 +169,8 @@ Action
 1. Basic Attack
 2. Skill
 Nezha, Pilih Aksi: 1
-Nezha attacking MengYa
-MengYa took 11 damage, remaining HP [89]/[100]
+Nezha menyerang MengYa
+MengYa terkena damage sebsar 11, sisa HP [89]/[100]
 ...
 Nezha memenangkan pertarungan
 

@@ -40,10 +40,10 @@ class Character:
         hit = self.calculate_damage(damage, self.defence)
         self.health -= hit
 
-        print(f'{self.name} took {hit} damage, remaining HP [{self.health}]/[100] ')
+        print(f'{self.name} terkena damage sebsar {hit}, sisa HP [{self.health}]/[100] ')
 
     def Attacking(self, target):
-        print(f'{self.name} attacking {target.name}')
+        print(f'{self.name} menyerang {target.name}')
         target.takeDamage(self.attack)
 
     def add_skill(self, skill: 'Skill'):
@@ -90,7 +90,7 @@ class gameMaster:
         
     def battleStart(self):
         print('\n' + '=' * 40)
-        print('Battle Start!')
+        print('Battle Start')
         print(f'{self.character1.name} VS {self.character2.name}')
         print('=' * 40)
         turn = 1
